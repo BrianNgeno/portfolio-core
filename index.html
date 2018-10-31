@@ -1,15 +1,288 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
 
-  </body>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css" />
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+  <title></title>
+</head>
+
+<body>
+
+  <div class="container-fluid" id="main">
+    <nav class="navbar navbar-inverse">
+      <!-- <div class="container-fluid"> -->
+      <div class="col-md-4">
+
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="#prof">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#sec3">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <!-- </div> -->
+    </nav>
+
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="#prof">Home</a>
+        <a href="#about">About</a>
+        <a href="#sec3">Projects</a>
+        <a href="#contact">Contact</a>
+
+      </div>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer; color:white;" onclick="openNav()" id="menu">&#9776;</span>
+
+    <!-- card #1 -->
+
+    <div class="card" id="card1">
+      <div class="content">
+        <h4 class="title">"At the end of our lives we all ask, 'Did I live? Did I love? Did I matter?"</h4>
+        <h6 class="text">- Brian Ngeno.</h6>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6" id="prof">
+      <div class="hover-box">
+        <div class="hover-img">
+          <img src="images/me.jpg" alt="image" class="img-responsive" />
+          <div class="over-layer">
+            <h3>Brian Ng'eno.</h3>
+            <div class="hover-info">
+              <i class="fa fa-folder"></i>
+              <span>Full Stack-web-developer </span>
+              <span>Web Developing and Designing</span>
+            </div>
+            <ul class="links">
+              <li><a href="https://github.com/BrianNgeno" class="fa fa-github fa-3x"></a></li>
+              <li><a href="#" class="fa fa-google fa-3x"></a></li>
+              <li><a href="#" class="fa fa-link fa-3x"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container top-padding" id="about">
+    <div class="row" id="top-padding" style="margin-top:20px;">
+      <h1 style="color: white;text-align: center;">About & Skills</h1>
+      <div class="col-md-5 col-md-offset-1">
+        <div class="laptop"></div>
+      </div>
+
+      <div class="col-md-5">
+        <div class="description">
+          <h2>About</h2>
+
+          <p> In my years of experience I learned a lot of things about good practices in coding, UX / UI, basic
+            javascript and the importance of content in web design.</p>
+
+          <p><strong>SKILLS:</strong></p>
+
+          <div class="skills">
+            <img src="https://himigatliwanag.files.wordpress.com/2016/01/html5.png" alt="HTML5">
+            <img src="https://himigatliwanag.files.wordpress.com/2016/01/css3.png" alt="CSS3">
+            <img src="https://himigatliwanag.files.wordpress.com/2016/01/javascript.png" alt="Javascript">
+            <img src="https://angular.io/assets/images/logos/angular/angular.png" alt="angular" style="color:grey;"
+              height="50px;" width="50px;">
+            <img src="http://www.pngall.com/wp-content/uploads/2016/05/Python-Logo-Free-Download-PNG.png" style="color:grey;"
+              height="50px;" width="50px;" alt="python">
+            <img src="https://himigatliwanag.files.wordpress.com/2016/01/photoshop.png" alt="Photoshop">
+
+          </div>
+
+          <p><strong>Role:</strong></p>
+
+          <p>
+            Present: Full-stack Developer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="sec3" class="page-sections">
+    <h2 style="margin-top:20px;color: white;text-align: center;"><strong>PROJECTS</strong></h2>
+
+    <div class="row text-center">
+      <div class=" offset-1">
+
+        <a href="https://gram-likes.herokuapp.com/">
+          <div class="card">
+            <div id="f1_container">
+              <div id="f1_card" class="shadow">
+                <div class="front face">
+                  <img src="images/insta.png" />
+                </div>
+                <div class="back face center">
+                  <p>This is a instagram clone.</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Instagram</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted"><a href="https://gram-likes.herokuapp.com/" class="btn btn-outline-warning"
+                  style="text-decoration: none; color:white;" target="blank">
+                  View site.</a></small>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://app-awards.herokuapp.com/
+        ">
+          <div class="card">
+            <div id="f1_container">
+              <div id="f1_card" class="shadow">
+                <div class="front face">
+                  <img src="images/awards.png" />
+                </div>
+                <div class="back face center">
+                  <p>This an awwwards site clone</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Awwwards</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted"><a href="https://app-awards.herokuapp.com/
+              " class="btn btn-outline-warning"
+                  style="text-decoration: none;" target="blank">
+                  View site.</a></small>
+            </div>
+          </div>
+        </a>
+
+        <div class="card">
+          <div id="f1_container">
+            <div id="f1_card" class="shadow">
+              <div class="front face">
+                <img src="images/news.png" />
+              </div>
+              <div class="back face center">
+                <p>This is a Personal project</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-text">News-Highlight-Api.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"><a href="https://news-highlight-api.herokuapp.com/" class="btn btn-outline-warning" style="text-decoration: none;" target="blank">
+                View site.</a></small>
+          </div>
+        </div>
+
+        <div class="card">
+          <div id="f1_container">
+            <div id="f1_card" class="shadow">
+              <div class="front face">
+                <img src="images/pig.png" />
+              </div>
+              <div class="back face center">
+                <p>This is an online game</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Pig Dice</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"><a href="https://brianngeno.github.io/pig_dice/" class="btn btn-outline-warning" style="text-decoration: none;" target="blank">
+                View site.</a></small>
+          </div>
+        </div>
+
+        <div class="card">
+          <div id="f1_container">
+            <div id="f1_card" class="shadow">
+              <div class="front face">
+                <img src="images/gallery.png" />
+              </div>
+              <div class="back face center">
+                <p>This is text</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Personal Gallery</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"><a href="https://gallabrayo.herokuapp.com/" class="btn btn-outline-warning" style="text-decoration: none;" target="blank">
+                View site.</a></small>
+          </div>
+        </div>
+
+        <div class="card">
+          <div id="f1_container">
+            <div id="f1_card" class="shadow">
+              <div class="front face">
+                <img src="images/git.png" />
+              </div>
+              <div class="back face center">
+                <p>This is nice</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-text"> Github search</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"><a href="https://brianngeno.github.io/Ghpages_Api/" class="btn btn-outline-warning" style="text-decoration: none;" target="blank">
+                View site.</a></small>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <div class="container top-padding">
+    <div class="row text-center">
+      <h2 class="">Contact</h2>
+
+
+      <div class="contact-info col-md-10 col-md-offset-1" id="contact">
+        <div class="social-media">
+          <p><strong>LET'S BE FRIENDS</strong></p>
+
+          <h3> <a href="#">linkedin</a> <br>
+            <a href="https://github.com/BrianNgeno">github</a></h3>
+        </div>
+        <div class="email-link">
+          <p><strong>OR EMAIL ME</strong></p>
+          <h3><a href="">bkn.ngeno@gmail.com</a></h3>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+</body>
+
 </html>
