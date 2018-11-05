@@ -640,13 +640,13 @@ html {
   backface-visibility: hidden;
 }
 .face.back {
-  font-size: 14px;
-  text-align: center;
+  font-size: 16px;
+  text-align: left;
   display: block;
   transform: rotateY(180deg);
   box-sizing: border-box;
   padding: 10px;
-  color: white;
-  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color:white;
   background-color:black;
 }
